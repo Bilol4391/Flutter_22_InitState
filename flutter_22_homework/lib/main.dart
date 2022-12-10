@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_22_homework/PageThree.dart';
 import 'package:flutter_22_homework/PageTwo.dart';
+import 'package:flutter_22_homework/TaskTwoPageFour.dart';
+import 'package:flutter_22_homework/TaskTwoPageThree.dart';
+import 'package:flutter_22_homework/TaskTwoPageTwo.dart';
+import 'package:flutter_22_homework/homework_2_page_one.dart';
 
 import 'PageOne.dart';
 
@@ -15,7 +19,7 @@ class MainFile extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageOne(),
+      home: TaskTwoPageOne(),
     );
   }
 }
